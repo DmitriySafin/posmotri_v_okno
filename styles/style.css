@@ -184,6 +184,7 @@ button:focus-visible {
   margin-top: 2px;
 }
 .content__accent {
+  position: relative;
   color: #545050;
   font-family: Oswald;
   font-size: 75px;
@@ -191,11 +192,11 @@ button:focus-visible {
   line-height: 94%;
   text-transform: uppercase;
 }
-/* .content__accent::after {
+.content__accent::after {
   content: "-";
-  position:absolute;
+  position: absolute;
   top: 8px;
-} */
+}
 .content__list {
   position: relative;
   display: flex;
