@@ -51,7 +51,6 @@ ol {
 }
 /* всё что связано с главным видео */
 .result__video-container {
-  position: relative;
   width: 711px;
   height: 386px;
 }
@@ -154,6 +153,7 @@ button {
   border: 1px solid #fff;
   align-self: end;
   margin-bottom: 4px;
+  cursor: pointer;
 }
 button:active {
   background: #545050;
@@ -183,7 +183,6 @@ button:focus-visible {
   text-transform: uppercase;
 }
 .content__accent {
-  /* position: relative; */
   color: #545050;
   font-family: Oswald;
   font-size: 75px;
@@ -196,7 +195,6 @@ button:focus-visible {
   top: 8px;
 } */
 .content__list {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -212,7 +210,6 @@ button:focus-visible {
   color: #fff;
   text-transform: uppercase;
   margin: 2px;
-  padding: 3px; /*так кнопка не скрывается*/
 }
 .content__card-link:focus {
   outline: 1px solid #fff;
