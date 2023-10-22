@@ -51,6 +51,7 @@ ol {
 }
 /* всё что связано с главным видео */
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
 }
@@ -192,9 +193,11 @@ button:focus-visible {
 }
 /* .content__accent::after {
   content: "-";
+  position:absolute;
   top: 8px;
 } */
 .content__list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
